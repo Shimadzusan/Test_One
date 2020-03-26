@@ -1,0 +1,15 @@
+[t42]
+FileName1=t42.html
+URL1=http://85.143.219.176/lessons/3835
+Total=3
+RequestHeaderFile=t42_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t42_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_42.xml
+FileName2=t42_solution.html
+URL2=http://85.143.219.176/static/js/solution.js
+FileName3=t42_question.html
+URL3=http://85.143.219.176/static/js/question.js
+[ProtocolInfo]
+ProtocolId=QTWeb

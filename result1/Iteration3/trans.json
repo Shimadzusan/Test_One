@@ -1,0 +1,12 @@
+[
+    {
+        "transactionName": "operation:_alpha_user",
+        "rawStartTime": 1585211736141,
+        "rawEndTime": 1585211739069
+    },
+    {
+        "transactionName": "operation:_betta_user",
+        "rawStartTime": 1585211739079,
+        "rawEndTime": 1585211741634
+    }
+]

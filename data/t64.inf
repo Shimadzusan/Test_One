@@ -1,0 +1,17 @@
+[t64]
+FileName1=t64.html
+URL1=http://85.143.219.176/
+Total=4
+RequestHeaderFile=t64_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t64_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_64.xml
+FileName2=t64_pages.css
+URL2=http://85.143.219.176/static/css/pages.css
+FileName3=t64_logout.html
+URL3=http://85.143.219.176/static/js/logout.js
+FileName4=t64_login_4.jpg
+URL4=http://85.143.219.176/static/images/login_4.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

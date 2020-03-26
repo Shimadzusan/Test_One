@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/login.css"/>
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/sha256.js"></script>
+</head>
+    <body>
+        <div class="login-card">
+            <form class="form-signin">
+                <input id="usetBox" type="text" name="user" placeholder="Логин" autocomplete="off">
+                <input id="passBox" type="password" name="pass" placeholder="Пароль" autocomplete="off">
+                <button id="btnSignUp" name="login" class="login login-button" type="button">Вход</button>
+                <script>
+                    $('.login-card').keypress(function(ev){
+                        if (ev.which === 13)
+                            $('#btnSignUp').click();
+                    });
+                </script>
+                <p id="invalidAccount">Некорректный логин/пароль</p>
+            </form>
+        </div>
+        <script>
+            $(function() {
+                $('#btnSignUp').click(function() {
+                    if ($('#usetBox').val() == '' || $('#passBox').val() == '') {
+                        document.getElementById("invalidAccount").style.opacity="1";
+                        return 0;
+                    }
+                    var body = {"login": $('#usetBox').val(),
+                                "password": CryptoJS.SHA256($('#passBox').val()).toString()};
+                    $.ajax({
+                        url: '/api/v1/login',
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        data : JSON.stringify(body),
+                        type: 'PUT',
+                        success: function(response) {
+                            console.log(response);
+                            window.location = "/";
+                        },
+                        error: function(error) {
+                            console.log(error);
+                            document.getElementById("invalidAccount").style.opacity="1";
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

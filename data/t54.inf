@@ -1,0 +1,15 @@
+[t54]
+FileName1=t54.html
+URL1=http://85.143.219.176/lessons/2
+Total=3
+RequestHeaderFile=t54_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t54_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_54.xml
+FileName2=t54_solution.html
+URL2=http://85.143.219.176/static/js/solution.js
+FileName3=t54_question.html
+URL3=http://85.143.219.176/static/js/question.js
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,6 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[betta_user]
+SnapshotIndex=I1_betta_user
+[alpha_user]
+SnapshotIndex=I1_alpha_user

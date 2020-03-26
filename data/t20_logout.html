@@ -1,0 +1,15 @@
+$(function() {
+    $('#top-menu-button-logout').click(function() {
+        $.ajax({
+            url: '/api/v1/login',
+            type: 'DELETE',
+            success: function(response) {
+                console.log(response);
+                window.location = "/login";
+            },
+            error: function(error) {
+                console.log(error);
+            }
+        });
+    });
+});

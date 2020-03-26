@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.17.4
+Date: Wed, 25 Mar 2020 09:26:36 GMT
+Content-Type: application/json
+Content-Length: 47
+Connection: keep-alive
+Vary: Cookie
+Set-Cookie: session=eyJyb2xlIjoib3duZXIiLCJ1c2VyX2lkIjoxfQ.XnsjzA.yVPSw9ybt3ZaI3hhC0VJAbLfSs0; HttpOnly; Path=/
+

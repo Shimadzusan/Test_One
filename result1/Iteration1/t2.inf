@@ -1,0 +1,22 @@
+[t2]
+FileName2=t1_3_login_6.jpe
+RawStepEndTime=1585211727070
+FileName5=t1_0_login.css
+FileName4=t1_1_sha256.UNK
+RequestBodyFile=t2_RequestBody.txt
+RawStepName=favicon.ico
+ContentType=text/html
+URL1=http://85.143.219.176/login
+URL2=http://85.143.219.176/static/images/login_6.jpg
+URL3=http://85.143.219.176/static/js/jquery.js
+ResponseHeaderFile=t2_ResponseHeader.txt
+URL4=http://85.143.219.176/static/js/sha256.js
+URL5=http://85.143.219.176/static/css/login.css
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1585211726812
+Total=5
+StepName=Url: favicon.ico
+FileName1=t2.html
+FileName3=t1_2_jquery.UNK

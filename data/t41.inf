@@ -1,0 +1,17 @@
+[t41]
+FileName1=t41.html
+URL1=http://85.143.219.176/
+Total=4
+RequestHeaderFile=t41_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t41_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_41.xml
+FileName2=t41_pages.css
+URL2=http://85.143.219.176/static/css/pages.css
+FileName3=t41_logout.html
+URL3=http://85.143.219.176/static/js/logout.js
+FileName4=t41_login_4.jpg
+URL4=http://85.143.219.176/static/images/login_4.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

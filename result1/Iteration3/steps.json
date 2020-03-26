@@ -1,0 +1,122 @@
+[
+    {
+        "stepId": "STEP41",
+        "stepName": "Url: login",
+        "infFile": "t1.inf",
+        "time": 1585211736697
+    },
+    {
+        "stepId": "STEP42",
+        "stepName": "Url: favicon.ico",
+        "infFile": "t2.inf",
+        "time": 1585211736933
+    },
+    {
+        "stepId": "STEP43",
+        "stepName": "Custom Request: login_2",
+        "infFile": "t3.inf",
+        "time": 1585211737094
+    },
+    {
+        "stepId": "STEP44",
+        "stepName": "Url: 85.143.219.176",
+        "infFile": "t4.inf",
+        "time": 1585211737503
+    },
+    {
+        "stepId": "STEP45",
+        "stepName": "Link: lesson 1",
+        "infFile": "t5.inf",
+        "time": 1585211737907
+    },
+    {
+        "stepId": "STEP46",
+        "stepName": "Link: lesson_4",
+        "infFile": "t6.inf",
+        "time": 1585211738252
+    },
+    {
+        "stepId": "STEP47",
+        "stepName": "Custom Request: questions",
+        "infFile": "t7.inf",
+        "time": 1585211738440
+    },
+    {
+        "stepId": "STEP48",
+        "stepName": "Custom Request: solutions",
+        "infFile": "t8.inf",
+        "time": 1585211738617
+    },
+    {
+        "stepId": "STEP49",
+        "stepName": "Custom Request: login_3",
+        "infFile": "t9.inf",
+        "time": 1585211738773
+    },
+    {
+        "stepId": "STEP50",
+        "stepName": "Url: login_4",
+        "infFile": "t10.inf",
+        "time": 1585211738928
+    },
+    {
+        "stepId": "STEP51",
+        "stepName": "Url: login_5",
+        "infFile": "t11.inf",
+        "time": 1585211739067
+    },
+    {
+        "stepId": "STEP52",
+        "stepName": "Url: login",
+        "infFile": "t12.inf",
+        "time": 1585211739223
+    },
+    {
+        "stepId": "STEP53",
+        "stepName": "Url: favicon.ico",
+        "infFile": "t13.inf",
+        "time": 1585211739418
+    },
+    {
+        "stepId": "STEP54",
+        "stepName": "Custom Request: login_2",
+        "infFile": "t14.inf",
+        "time": 1585211739568
+    },
+    {
+        "stepId": "STEP55",
+        "stepName": "Url: 85.143.219.176",
+        "infFile": "t15.inf",
+        "time": 1585211739772
+    },
+    {
+        "stepId": "STEP56",
+        "stepName": "Link: lesson_4",
+        "infFile": "t16.inf",
+        "time": 1585211740108
+    },
+    {
+        "stepId": "STEP57",
+        "stepName": "Link: lesson 2",
+        "infFile": "t17.inf",
+        "time": 1585211740884
+    },
+    {
+        "stepId": "STEP58",
+        "stepName": "Link: lesson 1",
+        "infFile": "t18.inf",
+        "time": 1585211741297
+    },
+    {
+        "stepId": "STEP59",
+        "stepName": "Custom Request: login_3",
+        "infFile": "t19.inf",
+        "time": 1585211741463
+    },
+    {
+        "stepId": "STEP60",
+        "stepName": "Url: login_4",
+        "infFile": "t20.inf",
+        "time": 1585211741632
+    }
+]

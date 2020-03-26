@@ -1,0 +1,10 @@
+GET /lessons/2 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://85.143.219.176/
+Accept-Language: ru-RU
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 85.143.219.176
+Connection: Keep-Alive
+Cookie: session=eyJyb2xlIjoib3duZXIiLCJ1c2VyX2lkIjoxfQ.XnsRPg.nMT1Hn1sFj_s8FrzjnRZAtskRrg
+

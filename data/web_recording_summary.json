@@ -1,0 +1,265 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "MaxUsedConnections": 3,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "���-25-2020",
+    "RecordingDuration": 106437,
+    "RecordingTimeStamp": 1585123253,
+    "TotalBytesReceived": 444587,
+    "TotalBytesSent": 6996,
+    "TotalRequests": 20
+  },
+  "HostInfo": [
+    {
+      "DomainName": "85.143.219.176",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "85.143.219.176",
+          "IncludeInScript": true,
+          "Name": "85.143.219.176",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 281,
+              "EventId": 2149,
+              "HttpStatus": 200,
+              "Size": 2257,
+              "URL": "http://85.143.219.176/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 2146,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "http://85.143.219.176/api/v1/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 235,
+              "EventId": 2139,
+              "HttpStatus": 200,
+              "Size": 24133,
+              "URL": "http://85.143.219.176/lessons/10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 235,
+              "EventId": 2130,
+              "HttpStatus": 200,
+              "Size": 21705,
+              "URL": "http://85.143.219.176/lessons/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 422,
+              "EventId": 2065,
+              "HttpStatus": 200,
+              "Size": 2025,
+              "URL": "http://85.143.219.176/static/js/question.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 422,
+              "EventId": 2063,
+              "HttpStatus": 200,
+              "Size": 2286,
+              "URL": "http://85.143.219.176/static/js/solution.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 2049,
+              "HttpStatus": 200,
+              "Size": 21768,
+              "URL": "http://85.143.219.176/lessons/3835"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 2018,
+              "HttpStatus": 200,
+              "Size": 114227,
+              "URL": "http://85.143.219.176/static/images/login_4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 2016,
+              "HttpStatus": 404,
+              "Size": 232,
+              "URL": "http://85.143.219.176/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 2014,
+              "HttpStatus": 200,
+              "Size": 397,
+              "URL": "http://85.143.219.176/static/js/logout.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 2012,
+              "HttpStatus": 200,
+              "Size": 2193,
+              "URL": "http://85.143.219.176/static/css/pages.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 2005,
+              "HttpStatus": 200,
+              "Size": 21508,
+              "URL": "http://85.143.219.176/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 141,
+              "EventId": 2000,
+              "HttpStatus": 200,
+              "Size": 47,
+              "URL": "http://85.143.219.176/api/v1/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 1997,
+              "HttpStatus": 200,
+              "Size": 2257,
+              "URL": "http://85.143.219.176/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 1995,
+              "HttpStatus": 302,
+              "Size": 219,
+              "URL": "http://85.143.219.176/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 1947,
+              "HttpStatus": 200,
+              "Size": 131929,
+              "URL": "http://85.143.219.176/static/images/login_6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 1913,
+              "HttpStatus": 200,
+              "Size": 4608,
+              "URL": "http://85.143.219.176/static/js/sha256.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 1906,
+              "HttpStatus": 200,
+              "Size": 88151,
+              "URL": "http://85.143.219.176/static/js/jquery.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 1901,
+              "HttpStatus": 200,
+              "Size": 2345,
+              "URL": "http://85.143.219.176/static/css/login.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 1896,
+              "HttpStatus": 200,
+              "Size": 2257,
+              "URL": "http://85.143.219.176/login"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}

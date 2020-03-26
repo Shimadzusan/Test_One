@@ -1,0 +1,55 @@
+$(function() {
+    $('#btnQuestion').click(function() {
+
+        if (document.getElementById('textareaQ').value != "") {
+
+            var text = $('#textareaQ').val();
+
+            $.ajax({
+                url: '/api/v1/questions',
+                contentType: 'application/json',
+                data : JSON.stringify ({
+                    lesson_id: parseInt($('#lesson-id').text()),
+                    question : $('#textareaQ').val()
+                }),
+                type: 'PUT',
+                success: function(response) {
+
+                    var card = document.createElement("div");
+                    card.className = "card";
+
+                    var h2question = document.createElement("h2");
+                    h2question.appendChild(document.createTextNode("Ваш вопрос"));
+
+                    var pquestion = document.createElement("p");
+                    pquestion.appendChild(document.createTextNode(text));
+
+                    var h2answer = document.createElement("h2");
+                    h2answer.appendChild(document.createTextNode("Ответ"));
+
+                    var panswer = document.createElement("p");
+                    panswer.appendChild(document.createTextNode('Ожидайте'));
+
+                    card.appendChild(h2question);
+                    card.appendChild(pquestion);
+                    card.appendChild(h2answer);
+                    card.appendChild(panswer);
+                    card.style.backgroundColor = 'rgba(0,0,255,0.1)';
+
+                    var thisElement = document.getElementById("question");
+                    var parentThis = thisElement.parentNode;
+                    parentThis.insertBefore(card, thisElement.nextSibling);
+
+                    $('#question').remove();
+
+
+                    console.log(response);
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+            document.getElementById('textareaQ').value = "";
+        }
+    });
+});

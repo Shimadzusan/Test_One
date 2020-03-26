@@ -1,0 +1,58 @@
+$(function() {
+    $('#btnSolution').click(function() {
+
+        if (document.getElementById('textareaS').value != "") {
+
+            var text = $('#textareaS').val();
+
+            $.ajax({
+                url: '/api/v1/solutions',
+                contentType: 'application/json',
+                data : JSON.stringify ({
+                    lesson_id: parseInt($('#lesson-id').text()),
+                    solution : $('#textareaS').val()
+                }),
+                type: 'PUT',
+                success: function(response) {
+
+                    var card = document.createElement("div");
+                    card.className = "card";
+
+                    var h2result = document.createElement("h2");
+                    h2result.appendChild(document.createTextNode("Ваше решение"));
+
+                    var presult = document.createElement("p");
+                    presult.appendChild(document.createTextNode(text));
+
+                    var h2answer = document.createElement("h2");
+                    h2answer.appendChild(document.createTextNode("Результат"));
+
+                    var panswer = document.createElement("p");
+                    panswer.appendChild(document.createTextNode('Ожидайте'));
+
+                    card.appendChild(h2result);
+                    card.appendChild(presult);
+                    card.appendChild(h2answer);
+                    card.appendChild(panswer);
+                    card.style.backgroundColor = 'rgba(0,0,255,0.1)';
+
+                    var thisElement = document.getElementById("solution");
+                    var parentThis = thisElement.parentNode;
+//                    parentThis.insertBefore(card, thisElement);
+                    parentThis.insertBefore(card, thisElement.nextSibling);
+
+                    var elem = document.getElementById("textareaS");
+	                elem.parentNode.removeChild(elem);
+	                var elem = document.getElementById("btnSolution");
+	                elem.parentNode.removeChild(elem);
+
+                    console.log(response);
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+            document.getElementById('textareaS').value = "";
+        }
+    });
+});
